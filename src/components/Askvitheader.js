@@ -42,7 +42,7 @@ function Askvitheader() {
           user: user
         };
         await axios
-          .post("/api/questions", body, config)
+          .post("https://askvit-backend.onrender.com/api/questions", body, config)
           .then((res) => {
             console.log(res.data);
             alert(res.data.message);

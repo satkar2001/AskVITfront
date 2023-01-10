@@ -135,7 +135,7 @@ function Askvitheader() {
                   value={question}
                   onChange={(e) => setQuestion(e.target.value)}
                   type=" text"
-                  placeholder="Start your question with 'What', 'How', 'Why', etc. "
+                  placeholder="Try starting your question with Wh-words('What', 'How', 'Why' etc.) "
                 />
                 <div
                   style={{
@@ -153,7 +153,7 @@ function Askvitheader() {
                       padding: "10px",
                       outline: "2px solid #000",
                     }}
-                    placeholder="Optional: inclue a link that gives context"
+                    placeholder="inclue a link(image) to give context"
                   />
                   {inputUrl !== "" && (
                     <img

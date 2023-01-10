@@ -20,3 +20,15 @@
     width: 100%;
     max-width: 1200px;
   }
+   .react-responsive-modal-modal {
+    width: 50vw;
+    height: 70vh;
+  }
+  
+  .quill {
+    height: 50vh;
+  }
+  
+  .react-responsive-modal-overlay {
+    background: rgb(0 0 0 / 75%);
+  }
